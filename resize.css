@@ -1,0 +1,1126 @@
+@media only screen and (min-width:1801px) and (max-width:1920px){
+  .Main-container{
+    width: 100%;
+    max-width: 1600px; 
+  }
+  .Main-container .awards {
+    width: 1200px;
+  }
+  .logo {
+    width: 20%; 
+    }
+    .logo img {
+    width: 50%;
+    height: auto; 
+    }
+  nav a {
+    font-size: 14px;
+    }
+    .social-links a {
+    font-size: 30px;
+    }
+}
+@media only screen and (min-width:1701px) and(max-width: 1800px){
+  .Main-container{
+    max-width: 1500px;
+  }
+  .Main-container .awards {
+    max-width: 1200px;
+  }
+}
+@media only screen and (min-width:1601px) and(max-width: 1700px){
+  .Main-container{
+    max-width: 1400px;
+  }
+  .Main-container .awards {
+    max-width: 1200px;
+  }
+}
+@media only screen and(min-width:1501px) and(max-width: 1600px){
+  .Main-container{
+    max-width: 1300px;
+  }
+  .Main-container .awards {
+    max-width: 1200px;
+  }
+}
+@media only screen and (min-width:1401) and(max-width: 1500px){
+  .Main-container{
+    max-width: 1200px;
+  } 
+  .Main-container .awards {
+    max-width: 1200px;
+  }
+}
+@media only screen and (min-width:1301px) and (max-width: 1400px){
+  .Main-container{
+    max-width: 1100px;
+  }
+  .Main-container .awards {
+    max-width: 1200px;
+  }
+  #prevTestimonial {
+    left: 180px;
+}
+  #nextTestimonial {
+    right: 180px;
+}
+}
+@media only screen and (min-width:1201px) and (max-width: 1300px){
+  .Main-container{
+    max-width: 1000px;
+  }
+  .Main-container .awards {
+    max-width: 1200px;
+  }
+  #prevTestimonial {
+    left: 130px;
+}
+  #nextTestimonial {
+    right: 130px;
+}
+}
+@media only screen and (min-width:1101px) and (max-width: 1200px){
+  .Main-container{
+    width: 900px;
+  }
+  #nextTestimonial {
+    right: 100px;
+}
+#prevTestimonial {
+  left: 100px;
+}
+  .Main-container .awards {
+    width: 900px;
+  }
+  header .main-menu {
+    width: 100%;
+  }
+  .logo{
+    width: 10%;
+  }
+  nav {
+    width: 75%;
+    justify-content: center;
+    }
+    nav ul{
+      gap: 20px;
+    }
+    nav ul li a {
+      font-size: 13px;
+    }
+    .social-links a{
+      font-size: 18px;
+    }
+    .solution-card h3.a{
+      font-size: 18px;
+    }
+    .content-right {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-evenly;
+      }
+      .stat {
+        display: inline-grid;
+        width: 37%;
+        padding-left: 50px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1100px) {
+  .Main-container {
+    width: 800px;
+  }
+  .Main-container .awards{
+    width: 800px;
+  }
+  header .main-menu {
+    width: 100%;
+  }
+  .logo {
+    width: 12%;
+}
+.logo img {
+  width: 89%;
+  height: 38px;
+}
+  nav {
+    width: 75%;
+    justify-content: center;
+    }
+    nav ul {
+      padding: 0%;
+      display: flex;
+      list-style: none;
+      gap: 20px;
+  }
+  nav ul li a {
+    font-size: 12px;
+}
+.social-links {
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+    .social-links a{
+      font-size: 20px;
+    }
+    .solution-card h3.a{
+      font-size: 18px;
+    }
+    .content-right {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-evenly;
+      }
+      .solution-card {
+        font-family: satoshi-light;
+        border-bottom: 10px solid #105378;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288);
+        height: 350px;
+        padding: 10px;
+        text-align: left;
+        position: relative;
+        transition: box-shadow 0.3s ease;
+        margin: 5px;
+      }
+      .stat {
+        display: inline-grid;
+        width: 37%;
+        padding-left: 50px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+      .container3 {
+        padding: 50px 0;
+        background-color: #105378;
+    }
+    .container3 .Main-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: auto;
+      height: auto;
+      padding: 27px 10px;
+      background-color: #105378;
+      margin: 0 auto;
+  }
+  #prevTestimonial {
+    left: 10px; 
+    }
+    #nextTestimonial {
+    right: 10px; 
+    }
+.solutions-container2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.footer-center ul {
+  font-family: satoshi-Regular;
+  font-weight: 400;
+  list-style: none;
+  padding: 0%;
+}
+.container .Main-container {
+  display: flex;
+  background-color: #EEEEEE;
+  box-shadow: none;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding-top: 38px;
+  }
+  
+  p.p1 {
+    font-family: satoshi-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+}
+
+/*@media only screen and(min-width:1001px) and(max-width: 1100px){
+  .Main-container{
+    width: 800px;
+  }
+  .Main-container .awards {
+    width: 800px;
+  }
+  .nav ul li a{
+    font-size:5px;
+  }
+}*/
+@media only screen and (min-width:901px) and (max-width: 1000px){
+  .Main-container{
+    width: 700px;
+  }
+  .footer-center ul {
+    padding: 0%;
+    font-family: satoshi-Regular;
+    font-weight: 400;
+    list-style: none;
+}
+  .logo img {
+    width: 89%;
+    height: auto;
+}
+
+
+  .container3 .Main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 27px 10px;
+    background-color: #105378;
+    margin: 0 auto;
+}
+  .social-links {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.social-links a{
+  font-size: 15px;
+}
+  nav ul {
+    padding: 0%;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+  .Main-container .awards {
+    width: 700px;
+  }
+  #prevTestimonial {
+    left: 10px; 
+    }
+    #nextTestimonial {
+    right: 10px; 
+    }
+    .stat {
+      width: 34%;
+  }
+  p.p1 {
+    font-family: satoshi-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+nav ul li a {
+  font-size: 9.5px;
+}
+}
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+.Main-container{
+  width: 650px;
+}
+.Main-container .awards {
+  width: 650px;
+}
+header .Main-container {
+  justify-content: space-between;
+  padding-top: 20px;
+}
+header {
+
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+} 
+.Main-container .main-menu {
+  display: flex;
+  padding: 0%;
+  padding-bottom: 20px;
+  justify-content: space-between; 
+  align-items: center;
+  width: 650px;
+}
+.logo img{
+  width: 100%;
+}
+.logo{
+  width: 140px;
+}
+nav {
+  width: 15%;
+  text-align: center;
+  position: relative;
+}
+.Main-container .social-links{
+  display: none;
+}
+.hamburger {
+  display: block;
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.nav-links {
+  display: flex;
+  margin-top: 0;
+  text-align: center;
+  padding: 150px 0 ;
+  flex-direction: column;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  margin-left: 0;
+  background-color: #CE9835;
+  transform: translateX(-100%); 
+  transition: transform 0.8s ease; 
+}
+#menu-toggle:checked + .hamburger + .nav-links {
+  transform: translateX(0); 
+}
+#menu-toggle:checked + .hamburger::before {
+  /*content: "\2715"; Unicode for the close (cross) icon */
+  font-size: 30px; 
+}
+.nav-links li {
+  text-align: center;
+}
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
+header.scrolled {
+  background-color: #CE9835; 
+  opacity: 0.8;
+  
+}
+.stat{
+  width: 33%;
+}
+.content-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  }
+  .container3 .Main-container{
+    padding: 50px 0;
+  }
+  p.p1 {
+    font-size: 18px;
+    color: white;
+    padding: 0%;
+    font-family:satoshi-Regular;
+    }
+  .nav-button {
+    position: absolute;
+    top: 60%;
+    margin: 0 auto;
+    background-color:#CE9835;
+    border: none;
+    color: white;
+    padding: 10px ;
+    font-size: 20px; 
+    cursor: pointer;
+    border-radius: 100%;
+    transition: background-color 0.3s ease;
+    transform: translateY(-50%);
+    }
+    #prevTestimonial {
+      font-size: 20px;
+      padding: 4px;
+      left: 0;
+  }
+    #nextTestimonial {
+      font-size: 20px;
+      padding: 4px;
+      right: 0; 
+    }
+    .footer-center{
+      padding: 0%;
+    }
+    .footer-center ul{
+      padding: 0 ;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width:699px) {
+  header {
+    flex-direction: column;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+  } 
+  #prevTestimonial {
+    font-size: 20px;
+    padding: 4px;
+    left: 0;
+}
+  #nextTestimonial {
+    font-size: 20px;
+    padding: 4px;
+    right: 0; 
+  }
+  p.p1 {
+    font-family: satoshi-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+  .footer-center ul {
+    padding: 0%;
+    font-family: satoshi-Regular;
+    font-weight: 400;
+    list-style: none;
+}
+  header .Main-container {
+    justify-content: space-between;
+    padding-top: 20px;
+}
+  .Main-container .main-menu {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 600px;
+  }
+  .logo img{
+    width: 100%;
+  }
+  .logo{
+    width: 80px;
+  }
+  nav {
+    width: 15%;
+    text-align: center;
+    position: relative;
+  }
+  .Main-container .social-links{
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  .nav-links {
+    display: flex;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 150px;
+    flex-direction: column;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 90%; 
+    background-color: #CE9835;
+    transform: translateX(-100%); 
+    transition: transform 0.8s ease; 
+  }
+  #menu-toggle:checked + .hamburger + .nav-links {
+    transform: translateX(0); 
+  }
+  #menu-toggle:checked + .hamburger::before {
+    /*content: "\2715"; Unicode for the close (cross) icon */
+    font-size: 30px; 
+  }
+  .nav-links li {
+    text-align: center;
+  }
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  header.scrolled {
+    background-color: #CE9835; 
+    opacity: 0.8;
+  }
+  .content-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    }
+}
+@media only screen and (max-width: 600px) {
+.hero {
+  min-height: 500px;
+}
+header {
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+} 
+header .Main-container{
+  padding: 0%;
+  padding: 20px 0;
+}
+.Main-container .main-menu {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 350px;
+}
+.logo img{
+  width: 100%;
+}
+.logo{
+  width: 120px;
+}
+nav {
+  width: 15%;
+  text-align: center;
+  position: relative;
+}
+.Main-container .social-links{
+  display: none;
+}
+.hamburger {
+  display: block;
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.nav-links {
+  gap:36px;
+  display: flex;
+  margin-top: 0;
+  text-align: center;
+  flex-direction: column;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  padding: 0px;
+  padding: 104px 0;
+  background-color: #CE9835;
+  transform: translateX(-100%); 
+  transition: transform 0.8s ease; 
+}
+#menu-toggle:checked + .hamburger + .nav-links {
+  transform: translateX(0); 
+}
+#menu-toggle:checked + .hamburger::before {
+  /*content: "\2715"; Unicode for the close (cross) icon */
+  font-size: 30px; 
+}
+.nav-links li {
+  text-align: center;
+}
+.nav-links li a {
+  color: #fff;
+  padding-bottom: 20px; 
+  text-decoration: none;
+  font-size: 22px;
+}
+header.scrolled {
+  background-color: #CE9835; 
+  opacity: 0.8;
+}
+.Main-container .awards {
+  width: 90%; 
+  top: 27%; 
+  left: 50%; 
+  align-content: space-evenly;
+  transform: translate(-50%, -50%);
+}
+.awards {
+position: relative; 
+width: 100%;
+max-width: 300px;
+display: flex;
+justify-content: center;
+top: 0;
+margin: 0 auto;
+border-radius: 10px;
+}
+.award img{
+width: 50px;
+height: auto;
+}*/
+.container .Main-container {
+  flex-direction: column; 
+  align-items: center;
+}
+.container .Main-container .card{
+width: 95%;
+}
+.card,
+.solution-card {
+width: 100%;
+margin-bottom: 20px;
+}
+.container .Main-container {
+padding: 10px;
+flex-direction: column;
+}
+.card .icon {
+max-width: 5%;
+height: 5%;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px auto;
+margin-top: 35px;
+}
+.card h3 {
+margin-top: 50px;
+color: #105378;
+margin-bottom: 20px;
+font-family: satoshi-Regular;
+font-size: 20px;
+font-weight: bolder;
+line-height: 20.75px;
+text-align: center;
+}
+.card p {
+  max-width: initial;
+font-weight: lighter;
+margin-top: 8px;
+line-height: 20.2px;
+font-family: satoshi-Regular;
+font-size: 14px;
+font-weight: bold;
+color:black;
+margin-bottom: 1px; 
+}
+.card a {
+display: inline-block;
+padding: 6px;
+color: #0a4d6b;
+margin-top: 10px;
+font-family: satoshi-Regular;
+font-size: 18px;
+font-weight: bolder;
+border-radius: 30px; ;
+text-decoration: none;
+margin-bottom: 5px;
+}
+.hero {
+  min-height: 500px;
+}
+.hero img{
+  width: 100%;
+}
+.training-consulting-section {
+  padding: 20px 10px;
+}
+.content-left h2 {
+  font-family:satoshi-Regular;
+  font-size: 26px;
+  color: #0a4d6b; 
+  margin-bottom: 20px;
+  }
+  .content-left p {
+  font-family:satoshi-Regular;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #000000;
+  }
+  .container10 .Main-container{
+  display: flex;
+  flex-direction: column;
+  }
+  .content-left{
+  width: 100%;
+  }
+  .content-right {
+  padding:0%;
+  width: 100%;
+  }
+  .stat{
+    display:inline-grid;
+    width: 49%;
+    padding-left: 0%; 
+  }
+  .stat h3 {
+  font-family:satoshi-Regular;
+  font-size: 22px;
+  color: #000000; 
+  margin-bottom: 10px;
+  }
+  .stat p {
+  font-family:satoshi-Regular;
+  font-size: 14px;
+  color: black;
+  font-weight: bold 
+  }
+  .container3{
+    background-color: #105378;
+    }
+    .container3 .Main-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: #105378;
+    margin: 0 auto;
+    padding-top: 40px;
+    } 
+    .left{
+    width: 90%;
+    padding-left: 10px;
+    }
+    .right{
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 0px;
+    }
+    .image img {
+    width: 100%;
+    height: auto;
+    }
+    .title {
+    font-family:satoshi-Regular;
+    margin-top: 0px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+    }
+    h2.title{
+    font-size: 16px;
+    }
+    .text {
+    font-family:satoshi-Regular;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+    }
+    .button1 {
+    font-family:satoshi-Regular;
+    display: inline-block;
+    color: white;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    .Advantage .heading{
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-family:satoshi-Regular;
+      background-color: transparent;
+      text-align: center;
+      font-size:26px   ;
+      font-weight: bolder;
+      color: #0a4d6b;
+      }
+      .container4 {
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+      max-width: 100%;
+      margin: 0 auto; 
+      position: relative;
+      }
+      h2.heading5 {
+      font-size: 26px;
+      font-family:satoshi-Regular;
+      font-weight: 700;
+      color: #105378;
+      margin-bottom: 20px;
+      }
+        .Main-container .solutions-section h2 {
+        font-size: 20px;
+        }
+        .Main-container .sol{
+        padding-top: 50px;
+        font-family:satoshi-Regular;
+        color: #0a4d6b;
+        font-size: 26px;
+        font-weight: bolder;
+        }
+        .solutions-section p {
+          font-family: satoshi-Regular;
+          font-size: 14px;
+          font-weight: bold;
+          color:black;
+        max-width: auto;
+        padding: 10px;
+        }
+        .navigation i {
+        font-size: 1.4em;
+        color: #CE9835;
+        padding-right: 20px;
+        cursor: pointer;
+        transition: color 0.3s ease;
+        }
+        .navigation i:hover {
+        color: #0f4968;
+        }
+        .solutions-Main{
+        background-color: white;
+        }
+        .solution-card {
+        font-family: 'Satoshi Light', sans-serif;
+        border-bottom: 10px solid #0a4d6b;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288);
+        height: 250px; 
+        text-align: left;
+        position: relative;
+        transition: box-shadow 0.3s ease;
+        margin: 5px;
+        }
+        .solution-card h3 {
+          font-family: satoshi-Regular;
+          font-size: 22px;
+          font-weight: bold;
+          color:black;
+        margin-bottom: 50px; 
+        margin-top: 50px;
+        }
+        .solution-card h3.a {
+        text-underline-offset: 10px;
+        text-decoration: underline #0a4d6b;
+        }
+        .solution-card p {
+          font-family: satoshi-Regular;
+          font-size: 14px;
+          font-weight: bold;
+          color:black;
+        line-height: 1.5;
+        margin-bottom: 30px;
+        }
+        .solution-card .icon-link {
+        position: absolute;
+        bottom: 25px;
+        right: 25px;
+        width: 25px;
+        height: 25px;
+        background-color: #CE9835;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 1.2em;
+        text-decoration: none;
+        }
+.testimonial-container, .testimonial-wrapper {
+  flex-direction: row;
+  align-items: center;
+}
+.testimonial {
+  font-family:satoshi-Regular;
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288);
+  text-align: center;
+  max-width: 100%; 
+  }
+  .testimonial h2 {
+  font-family: satoshi-Regular;
+  color: #105378;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  }
+  .testimonial p {
+  padding: 0 20px; 
+  font-family: satoshi-Regular;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  }
+  .company {
+  font-weight: bold;
+  color: #CE9835;
+  font-size: 10px; 
+  }
+  .nav-button {
+  position: absolute;
+  top: 55%;
+  background-color:#CE9835;
+  border: none;
+  color: white;
+  font-size: 19px; 
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: background-color 0.3s ease;
+  transform: translateY(-50%);
+  }
+  #prevTestimonial {
+  left: 0; 
+  }
+  #nextTestimonial {
+  right: 0; 
+  }
+ 
+  h1.heading5 { 
+  font-family:satoshi-Regular;
+  font-size: 22px;
+  color: #105378;
+  }
+  .container6 {
+    padding: 20px 0px 30px 0px;
+    background-color: #0f4968;
+    background-image:url("./images/Mask\ group\ \(1\).png");
+    text-align: center;
+    height: auto;
+    background-size: cover;
+    }
+    h1.hhh{
+    color: #0a4d6b;
+    }
+    h2.h22 {
+    font-size: 26px;
+    font-weight: 700;
+    color:white;
+    font-family:satoshi-Regular;
+    }
+    p.p1 {
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    font-family:satoshi-Regular;
+    }
+    button.button11 {
+    font-family:satoshi-Regular;
+    font-weight: 800;
+    background-color: white;
+    color: #105378;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    margin: 0 50px;
+    }
+    .solutions-container2 {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin: 0 auto;
+      }
+      .solution-card2 {
+      font-family:satoshi-Regular;
+      border-bottom: 10px solid #0a4d6b;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288);
+      width: 330px;
+      padding: 10px;
+      text-align: left;
+      position: relative;
+      margin-bottom: 20px;
+      transition: box-shadow 0.3s ease;
+      }
+      img{
+      width: 70px;
+      height: 70px;
+      }
+      .solution-card2 h5{
+        font-size: 16px;
+      padding-left: 20px;
+      padding-right: 20px;
+      }
+      .solution-card2 h3 {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family:satoshi-Regular;
+      font-size: 20px;
+      margin-bottom: 5px;
+      color: #333;
+      }
+      .solution-card2 p {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family:satoshi-Regular;
+      font-size: 14px;
+      color: #555;
+      line-height: 1.2;
+      margin-bottom: 30px;
+      }
+      .solution-card2 .icon-link {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 30px;
+      height: 30px;
+      background-color: #CE9835;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 0.8em;
+      text-decoration: none;
+      }
+.footer-container {
+  flex-direction: column;
+  align-items: center;
+}
+.footer-left,.footer-center,.footer-right {
+  width: 90%;
+  font-family:satoshi-Regular;
+  font-weight: bold;
+  margin: 20px 0;
+  font-size: 18px;
+}
+.footer-right{
+  width: 100%;
+}
+.footer-center ul{
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.footer-center ul li{
+  text-align: left;
+
+}
+.social-icons {
+  text-align: center;
+}
+.social-icons a{
+  font-size: 18px;
+}
+
+.footer-bottom{
+  font-size: 15px;
+}
+}
+
+ 

@@ -1,0 +1,867 @@
+@font-face {
+font-family: 'Satoshi-Light';
+  src: url('./fonts/Satoshi-Light.woff2') format('woff2'),
+        url('./fonts/Satoshi-Light.woff') format('woff'),
+        url('./fonts/Satoshi-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-display: swap;
+        font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Regular';
+    src: url('./fonts/Satoshi-Regular.woff2') format('woff2'),
+          url('./fonts/Satoshi-Regular.woff') format('woff'),
+          url('./fonts/Satoshi-Regular.ttf') format('truetype');
+          font-display: swap;
+          font-style: normal;
+  }
+  body .Main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: satoshi-Regular;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+  }
+  header {
+    width: 100%;
+    justify-content: center;
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+  }
+  header .main-menu{ 
+  display: flex;
+  width: 100%;
+  align-items: center;
+  }
+  header .Main-container {
+  justify-content: space-between; 
+  padding-top: 50px;
+  }
+  .logo {
+  width: 15%; 
+  }
+  .logo img {
+  width: 70%;
+  height: auto; 
+  }
+  nav {
+  width: 70%;
+  justify-content: center;
+  }
+  nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px; 
+  }
+  nav a {
+    font-family: satoshi-Regular;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    position: relative; 
+    padding-bottom: 5px;
+  }
+  nav a::after {
+    content: '';
+    position: absolute;
+    left: 50%; 
+    bottom: 0;
+    width: 0;
+    height: 2px; 
+    background-color: #fff; 
+    transition: all 0.3s ease-in-out; 
+    transform: translateX(-50%); 
+  }  
+  nav a:hover::after {
+    width: 100%; 
+    left: 0; 
+    transform: translateX(0); 
+  }
+  .social-links {
+  width: 15%; 
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+  }
+  .social-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  }
+  .hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 810px;
+  max-width: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  .hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  gap: 0px;
+  opacity: 0px;
+  object-fit: cover;
+  opacity: 0;
+  animation: slide 9s infinite;
+  }
+  .hero img:nth-child(1) { animation-delay: 0s; }
+  .hero img:nth-child(2) { animation-delay: 3s; }
+  .hero img:nth-child(3) { animation-delay: 6s; }
+  @keyframes slide {
+  0% { opacity: 0; }
+  33% { opacity: 1; }
+  66% { opacity: 0; }
+  100% { opacity: 0; }
+  }
+  .Main-container .awards {
+  margin-top: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  top: 440px;
+  background-color: white;
+  padding-block: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  opacity: 0; 
+  transform: translateY(20px); 
+  transition: opacity 1s ease-out, transform 1s ease-out; 
+  }
+  .social-links a:hover{
+  color: #CE9835;
+  }
+  .social-icons a:hover{
+  color: #CE9835;
+  }
+  .awards.visible {
+  opacity: 1; 
+  transform: translateY(0); 
+  }
+  .award {
+  margin: 5px; 
+  text-align: center; 
+  width: calc(20% - 20px); 
+  box-sizing: border-box; 
+  }
+  .award img {
+  width: 120px; 
+  height: 100px; 
+  }
+  .container .Main-container { 
+  display: flex;
+  background-color: #EEEEEE;
+  box-shadow: none;
+  justify-content: space-evenly; 
+  margin: 0 auto;
+  padding: 20px;
+  }
+  .card {
+  width: 260px;
+  justify-content: space-between;
+  height: auto;
+  background-color: #fff; 
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288);
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease; 
+  }
+  .card:hover {
+  transform: translateY(-5px); 
+  }
+  .card .icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  margin-top: 35px;
+  }
+  .card h3 {
+  margin-top: 50px;
+  color: #105378;
+  margin-bottom: 20px;
+  font-family: satoshi-Regular;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20.75px;
+  text-align: center;
+  }
+  .card p {
+    max-width: 258px;
+    font-family: satoshi-Regular;
+    font-size: 14px;
+    font-weight: 400;
+  margin-top: 8px;
+  line-height: 20.2px;
+  color:#3F3F3F;
+  margin-bottom: 1px; 
+  }
+  .card a {
+  display: inline-block;
+  padding: 8px;
+  color: #105378;
+  margin-top: 10px;
+  font-family: satoshi-Regular;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 30px; ;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-bottom: 5px;
+  }
+  .card a:hover {
+  border-radius: 30px;
+  background-color: #105378;
+  color: white;
+  }
+  .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Shows only 2 lines */
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    transition: max-height 0.3s ease;
+  }
+  
+  .card-text.full-text {
+    -webkit-line-clamp: unset; /* Shows full text when class added */
+  }
+  
+  .read-more-btn {
+    display: inline-block;
+    padding: 8px;
+    color: #105378;
+    margin-top: 10px;
+    font-family: satoshi-Regular;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #105378;
+    color: white;
+  }
+  
+  .solutions-section {
+  width: auto;
+  text-align: center;
+  background-color: #fff;
+  }
+  .Main-container 
+  .solutions-section h3 {
+  padding-left: 10px;
+  background-color: white;
+  color: #105378;
+  font-family: satoshi-Regular;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 20px;
+  }
+  .Main-container .sol{
+  padding-top: 80px;
+  font-family: satoshi-Regular;
+  font-size: 50px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  color: #3F3F3F;
+  font-weight: 500;
+  }
+  .solutions-section p {
+    font-family:satoshi-Regular;
+    font-weight: 300;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #3F3F3F;
+  margin: 0;
+  padding: 10px auto;
+  padding-bottom: 30px;
+  }
+  .solutions-container-wrapper {
+  overflow: hidden; 
+  width: 100%;    
+  position: relative; 
+  }
+  .solutions-container {
+  display: flex;
+  }
+  .navigation {
+  display: flex;
+  justify-content: flex-end;
+    align-items: center;
+  }
+  .navigation i {
+  font-size: 1.7em;
+  color: #CE9835;
+  padding-right: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  }
+  .navigation i:hover {
+  color: #0f4968;
+  }
+  .solutions-Main{
+  background-color: white;
+  }
+  .solution-card {
+    font-family: satoshi-light;
+    border-bottom: 10px solid #105378;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288);
+  height: 300px; 
+  padding: 10px;
+  text-align: left;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+  margin: 5px; 
+  }
+  .solution-card:hover {
+  transition: ease-out 0.3s;
+  box-shadow: 0 4px 8px rgb(7, 6, 6);
+  }
+  .solution-card h3 {
+    font-family: satoshi-Regular;
+    font-weight: 400;
+    font-size: 22px;
+  margin-bottom: 50px; 
+  margin-top: 50px;
+  color: #3F3F3F;
+  }
+  .solution-card h3.a {
+  text-underline-offset:10px;
+  text-decoration: underline #105378;
+  }
+  .solution-card p {
+    font-family: satoshi-Regular;
+    font-size: 16px;
+    font-weight: 400;
+  color: #3F3F3F;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  }
+  .solution-card .icon-link {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #CE9835;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  }
+  .icon-link:hover {
+  background-color: #105378;
+  }
+  h5 {
+  color: #105378;
+  font-style: italic;
+  font-family: satoshi-Regular;
+  font-weight: bolder;
+  font-size: 12px;
+  font-weight: 800;
+  }
+  .training-consulting-section {
+  background-color: white; 
+  }
+  .container10 .Main-container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  height: auto;
+  }
+  .content-left {
+  width: 50%; 
+  }
+  .content-right{
+  width: 50%;
+  }
+  .content-left h2 {
+    font-family:satoshi-Regular;
+    font-size: 45px;
+    font-weight: 500;
+    color: #105378; 
+    margin-bottom: 20px;
+  }
+  .content-left p {
+    font-family:satoshi-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #3F3F3F;
+  }
+  .stat {
+    display:inline-grid;
+    width: 41%;
+    padding-left: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .stat h3 {
+    font-family:satoshi-Regular;
+    font-size: 45px;
+    font-weight: 500;
+    color: #3F3F3F; 
+    margin-bottom: 10px;
+  }
+  .stat p {
+    font-family: satoshi-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3F3F3F; 
+  }
+  .container3{
+    background-color: #105378;
+  }
+  .container3 .Main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: #105378;
+    margin: 0 auto;
+    } 
+  .left{
+    margin: 20px auto ;
+  width: 50%;
+  padding-left: 50px;
+  }
+  .right{
+  width: 50%;
+  padding-right: 50px;
+  padding-left: 30px;
+  }
+  .right .text{
+      font-family: satoshi-Regular;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.6;
+      color: white;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  .title {
+    font-family:satoshi-Regular;
+    margin-top: 0px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  h2.title{
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .text {
+    font-family:satoshi-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 0%;
+    text-align: left;
+  }
+  .button1 {
+    font-family:satoshi-Regular;
+    display: inline-block;
+    color: white;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  .button1::after {
+    content: '';
+    position: absolute;
+    left: 50%; 
+    bottom: 0;
+    width: 0;
+    height: 2px; 
+    background-color: #fff; 
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%); 
+  }
+  .button1:hover::after {
+    width: 100%; 
+    left: 0; 
+    transform: translateX(0); 
+  }
+  .button:hover {
+  background-color: #eee;
+  }
+  .Advantage .heading{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family:satoshi-Regular;
+  background-color: transparent;
+  text-align: center;
+  font-size:32px;
+  color: #105378;
+  }
+  .container4 {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  max-width: 100%; 
+  margin: 0 auto; 
+  position: relative; 
+  }
+  h2.heading5 {
+  font-size: 32px;
+  font-weight: 800;
+  font-family:satoshi-Regular;
+  color: #105378;
+  margin-bottom: 20px;
+  }
+  .Main-container .testimonial-container {
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;  
+    max-width: 800px;
+  }
+  .testimonial-wrapper {
+  display: flex;
+  width: auto;
+  overflow-x: hidden;
+  position: relative;
+  scroll-behavior: smooth; 
+  }
+  .slick-dots {
+  display: none !important; 
+  }
+  .testimonial {
+    font-family: satoshi-Regular;
+    background-color: white;
+    padding: 15px; 
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288);
+    text-align: center; 
+    max-width: 100%; 
+  }
+  .testimonial h2 {
+  font-family: satoshi-Regular;
+  color: #105378;
+  margin-bottom: 10px;
+  font-size: 18px; 
+  }
+  .testimonial p {
+  padding: 0 20px;
+  font-family: satoshi-Regular;
+  font-size: 14px; 
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  }
+  .company {
+  font-weight: bold;
+  font-family: satoshi-Regular;
+  font-style: italic;
+  color: #CE9835;
+  font-size: 12px; 
+  }
+  .nav-button {
+  position: absolute;
+  top: 60%;
+  margin: 0 auto;
+  background-color:#CE9835;
+  border: none;
+  color: white;
+  padding: 10px ;
+  font-size: 20px; 
+  cursor: pointer;
+  border-radius: 100%;
+  transition: background-color 0.3s ease;
+  transform: translateY(-50%);
+  }
+  #prevTestimonial {
+  left: 220px; 
+  }
+  #nextTestimonial {
+  right: 220px; 
+  }
+  .nav-button:hover {
+  background-color: #105378;
+  }
+  h1.heading5 { 
+  font-family:satoshi-Regular;
+  color: #105378;
+  font-size: 32px;
+  font-weight: 800px  ;
+  }
+  h1.heading{
+  margin: 0;
+  padding: 0;
+  }
+  .solutions-container2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0 auto;
+  }
+  .solution-card2 {
+  font-family:satoshi-Regular;
+  border-bottom: 10px solid #105378;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288);
+  width: 330px;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+  }
+  img{
+  width: 70px;
+  height: 70px;
+  }
+  .solution-card2:hover {
+  box-shadow: 0 4px 8px rgba(12, 11, 11, 0.877);
+  }
+  .solution-card2 h5{
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+  .solution-card2 h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family:satoshi-Regular;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #333;
+  }
+  .solution-card2 p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family:satoshi-Regular;
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  }
+  .solution-card2 .icon-link {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #CE9835;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  }
+  .solution-card2 .icon-link:hover{
+    background-color: #105378;
+  }
+  .container6 {
+  padding: 20px 0px 15px 0px;
+  background-color: #105378;
+  background-image:url("./images/Mask\ group\ \(1\).png");
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  }
+  h1.hhh{
+  color: #105378;
+  }
+  h2.h22 {
+    padding: 0;
+    margin: 0;
+  font-size: 45px;
+  font-weight: 500;
+  color:white;
+  font-family:satoshi-Regular;
+  }
+  p.p1 {
+    font-family: satoshi-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 0 200px;
+    text-align: center;
+    color: white;
+  }
+  button.button11 {
+  font-family:satoshi-Regular;
+  font-weight: 800;
+  background-color: white;
+  color: #105378;
+  cursor: pointer;
+  padding: 7px ;
+  width: 220px;
+  border: none;
+  font-size: 18px;
+  }
+  .button11:hover{
+  background-color: #CE9835;
+  text-decoration: underline;
+  color: white;
+  transition: ease-in;
+  }
+  .footer {
+  background-color: #105378; 
+  color: #ffffff; 
+  padding: 20px 0;
+  }
+ 
+
+  .footer-container {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0 auto;
+  }
+  .footer-left, .footer-center, .footer-right {
+  flex: 1;
+  margin: 0 10px;
+  }
+  .footer-right i{
+  padding-left: 20px;
+  margin-right: 10px;
+  }
+  .footer-left p {
+    font-family: satoshi-Regular;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.6;
+      color: white;
+  margin-bottom: 20px;
+  }
+  .social-icons a {
+    font-family: satoshi-Regular;
+      font-size: 25px;
+      line-height: 1.6;
+      color: white;
+  margin-right: 10px;
+  display: inline-block;
+  }
+  .footer-center ul {
+  font-family:satoshi-Regular;
+  font-weight: 400;
+  list-style: none;
+  }
+  .footer-center ul li {
+  font-family:satoshi-Regular;
+  font-weight: 400;
+  padding: 4px;
+  text-align: center;
+  margin: 10px 0;
+  }
+  .footer-center ul li a {
+    font-family: satoshi-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+  text-decoration: none;
+  text-align: left;
+  }
+
+  .footer-center ul li a:hover{
+    text-decoration: underline white;
+  }
+  .footer-right p {
+    font-family: satoshi-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+  display: flex;
+  align-items: center;
+  }
+
+  .footer-bottom {
+    font-family: satoshi-Regular;
+    background-color: #CE9835; 
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  margin-bottom: -20px;
+  max-width: 100%;
+  color: #ffffff;
+  }
+  .footer-bottom p {
+    font-family: satoshi-Regular;
+    font-weight: 400;
+    font-size: 14px;
+  margin: 1px;
+  }
+  
+  .footer-right a {
+    font-family: satoshi-Regular;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    position: relative; /* Needed for pseudo-element positioning */
+    padding-bottom: 5px; /* Space between text and underline */
+  }
+  .fa-location-arrow{
+    font-size: 25px;
+    margin-bottom: 30px;
+  padding: 0;  }
+  .fa-paper-plane{
+    font-size: 20px;
+  }
+  .fa-phone{
+    font-size: 20px;
+  }
+  .footer-right a:hover{
+    text-decoration: underline white;
+  }
+  .hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  position: fixed;
+
+  }
+  .menu-toggle {
+  display: none;
+  }
